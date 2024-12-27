@@ -3,7 +3,7 @@
 ## Overview
 Cobble Detection App is a real-time steel bar jam detection system based on computer vision and artificial intelligence. The application allows users to monitor video feeds, detect cobbles (steel bar jams), generate synthetic cobbles for testing, and adjust detection parameters in real-time.
 
-![Cobble Detection Interface](./screenshots/main_interface.png)
+![Cobble Detection Interface](./CD-snap.png)
 
 ## Features
 - Real-time video processing and cobble detection
