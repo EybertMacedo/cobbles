@@ -122,8 +122,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - The Ultralytics team for their YOLO implementation
 
 ## Contact
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/cobble-detection
+Eybert Macedo - emacedop@unsa.edu.pe
+Project Link: https://github.com/EybertMacedo/cobbles
 
 ## Support
 For support and questions, please create an issue in the GitHub repository or contact the development team.
