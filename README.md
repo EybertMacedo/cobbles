@@ -1,18 +1,18 @@
 # Cobble Detection App
 
 ## Overview
-Cobble Detection App is a real-time steel bar jam detection system based on computer vision and artificial intelligence. The application allows users to monitor video feeds, detect cobbles (steel bar jams), generate synthetic cobbles for testing, and adjust detection parameters in real-time.
+La Aplicación de Detección de Cobble es un sistema de detección en tiempo real de atascos en barras de acero basado en visión por computadora e inteligencia artificial. La aplicación permite a los usuarios monitorear transmisiones de video, detectar cobbles (atascos en barras de acero), generar cobbles sintéticos para pruebas y ajustar parámetros de detección en tiempo real.
 
 ![Cobble Detection Interface](./CD-snap.png)
 
 ## Features
-- Real-time video processing and cobble detection
-- Synthetic cobble generation for testing
-- Adjustable detection threshold
-- Frame capture and export capabilities
-- User-friendly graphical interface
-- Interactive cobble point selection
-- YOLO-based detection model
+- Procesamiento de video en tiempo real y detección de cobbles
+- Generación de cobbles sintéticos para pruebas
+- Umbral de detección ajustable
+- Captura y exportación de frames
+- Interfaz gráfica amigable para el usuario
+- Selección interactiva de puntos de cobbles
+- Modelo de detección basado en YOLO
 
 ## Requirements
 
@@ -55,12 +55,12 @@ python cobble_detection_app.py
 ```
 
 ### Basic Operations
-1. Open a video file using File -> Open Video
-2. Click "Start Generation" to enable synthetic cobble generation
-3. Click on the video to place cobble generation points
-4. Use "Process Video" to start detection
-5. Adjust the threshold using the slider
-6. Save frames using File -> Save Frame
+1. Abre un archivo de video usando Archivo -> Abrir Video.
+2. Haz clic en "Iniciar Generación" para habilitar la generación de cobbles sintéticos.
+3. Haz clic en el video para colocar puntos de generación de cobbles.
+4. Usa "Procesar Video" para iniciar la detección.
+5. Ajusta el umbral usando el control deslizante.
+6. Guarda frames usando Archivo -> Guardar Frame.
 
 ## Project Structure
 ```
@@ -106,13 +106,6 @@ def annotate_with_model(model, frame, conf_threshold):
     """
 ```
 
-## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -126,4 +119,4 @@ Eybert Macedo - emacedop@unsa.edu.pe
 Project Link: https://github.com/EybertMacedo/cobbles
 
 ## Support
-For support and questions, please create an issue in the GitHub repository or contact the development team.
+Para soporte y preguntas, crea un issue en el repositorio de GitHub o contacta al equipo de desarrollo.
